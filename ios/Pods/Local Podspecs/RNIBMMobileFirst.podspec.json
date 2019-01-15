@@ -1,0 +1,42 @@
+{
+  "name": "RNIBMMobileFirst",
+  "version": "8.0.2018101016",
+  "summary": "RNIBMMobileFirst",
+  "description": "RNIBMMobileFirst is bridge for a React Native app to IBM Mobile First Native iOS SDK",
+  "homepage": "https://github.ibm.com/MobileFirst/mfp-react-native",
+  "authors": {
+    "author": "IBM"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ],
+    "IBMMobileFirstPlatformFoundation": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "RNMFP",
+      "preserve_paths": "include/*.h",
+      "vendored_libraries": "lib/libRNMfpPlugin.a",
+      "libraries": "RNMfpPlugin",
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "${PODS_ROOT}/RNIBMMobileFirst/include/**"
+      },
+      "dependencies": {
+        "IBMMobileFirstPlatformFoundation": [
+
+        ]
+      }
+    }
+  ]
+}

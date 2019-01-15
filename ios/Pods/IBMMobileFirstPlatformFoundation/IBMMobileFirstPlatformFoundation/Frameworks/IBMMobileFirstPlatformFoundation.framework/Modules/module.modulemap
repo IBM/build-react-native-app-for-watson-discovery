@@ -1,0 +1,28 @@
+framework module IBMMobileFirstPlatformFoundation { umbrella header "IBMMobileFirstPlatformFoundation.h"
+    header "AccessToken.h"
+    header "BaseChallengeHandler.h"
+    header "GatewayChallengeHandler.h"
+    header "OCLogger.h"
+    header "OCLogger+Constants.h"
+    header "WLAnalytics.h"
+    header "WLAuthorizationManager.h"
+    header "SecurityCheckChallengeHandler.h"
+    header "WLClient.h"
+    header "WLCookieExtractor.h"
+    header "WLDelegate.h"
+    header "WLDeviceAuthManager.h"
+    header "WLFailResponse.h"
+    header "WLProcedureInvocationData.h"
+    header "WLProcedureInvocationResult.h"
+    header "WLResourceRequest.h"
+    header "WLResponse.h"
+    header "WLResponseListener.h"
+    header "WLSecurityUtils.h"
+    header "WLSecurityCommonUtils.h"
+    header "WLSecurityConstants.h"
+    header "WLSimpleDataSharing.h"
+    
+    export * module * { export * } }
+
+
+

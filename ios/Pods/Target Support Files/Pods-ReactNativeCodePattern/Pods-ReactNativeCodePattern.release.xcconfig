@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/RNIBMMobileFirst/include/** "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DoubleConversion" "${PODS_ROOT}/Headers/Public/IBMMobileFirstPlatformFoundation" "${PODS_ROOT}/Headers/Public/RNIBMMobileFirst" "${PODS_ROOT}/Headers/Public/React" "${PODS_ROOT}/Headers/Public/glog" "${PODS_ROOT}/Headers/Public/yoga"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion" "${PODS_CONFIGURATION_BUILD_DIR}/Folly" "${PODS_CONFIGURATION_BUILD_DIR}/RNIBMMobileFirst" "${PODS_CONFIGURATION_BUILD_DIR}/React" "${PODS_CONFIGURATION_BUILD_DIR}/glog" "${PODS_CONFIGURATION_BUILD_DIR}/yoga" "${PODS_ROOT}/../../node_modules/react-native-ibm-mobilefirst/ios/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DoubleConversion" -isystem "${PODS_ROOT}/Headers/Public/IBMMobileFirstPlatformFoundation" -isystem "${PODS_ROOT}/Headers/Public/RNIBMMobileFirst" -isystem "${PODS_ROOT}/Headers/Public/React" -isystem "${PODS_ROOT}/Headers/Public/glog" -isystem "${PODS_ROOT}/Headers/Public/yoga"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"DoubleConversion" -l"Folly" -l"RNIBMMobileFirst" -l"RNMfpPlugin" -l"React" -l"c++" -l"glog" -l"stdc++" -l"stdc++.6" -l"yoga" -l"z" -framework "IBMMobileFirstPlatformFoundation" -framework "JavaScriptCore" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
