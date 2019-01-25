@@ -12,7 +12,7 @@ Following completion of this pattern, the developer will understand how to:
 
 ## Quick start
   1. Sign up for IBM Cloud. Then sign up for Watson Discovery. Copy the API Key under Credentials for Watson Discovery.
-  2. In Global.js, add your Watson Discovery API Key in this format: apikey:YOUR_API_KEY
+  2. In Globals.js, add your Watson Discovery API Key in this format: apikey:YOUR_API_KEY
   3. Open a terminal, and then run
     `> npm install`
     `> react-native run-ios`
@@ -48,7 +48,7 @@ TBD
 The credentials for IBM Cloud services (Watson Discovery), can be found in the ``Services`` menu in IBM Cloud,
 by selecting the ``Service Credentials`` option for the service.
 
-In the Global.js file, add your Watson Discovery username and password in this format: username:password
+In the Globals.js file, add your Watson Discovery username and password in this format: username:password
 
 ### 4. Install Node.js
 1. Install [Node.js](https://nodejs.org/en/)
