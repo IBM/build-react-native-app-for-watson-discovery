@@ -10,6 +10,9 @@ Following completion of this pattern, the developer will understand how to:
 * Use Watson Discovery to detect sentiment and keywords for articles
 * Use Watson Discovery to find additional, related news articles for each associated keyword
 
+<img src="react-native-app-1.png" alt="React Native demo, initial screen" height="300">
+<img src="react-native-app-2.png" alt="React Native demo, Discovery results" height="300">
+
 ## Quick start
   1. Sign up for IBM Cloud. Then sign up for Watson Discovery. Copy the API Key under Credentials for Watson Discovery.
   2. In Globals.js, add your Watson Discovery API Key in this format: apikey:YOUR_API_KEY
