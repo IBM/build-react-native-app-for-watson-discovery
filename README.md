@@ -14,16 +14,15 @@ Following completion of this pattern, the developer will understand how to:
 
 |   |   |
 | - | - |
-| ![](doc/source/images/react-native-app-1.png) | ![](doc/source/images/react-native-app-2.png) |
+| ![app-page-1](doc/source/images/react-native-app-1.png) | ![app-page-2](doc/source/images/react-native-app-2.png) |
 
-TBD: Architecture Diagram
+![architecture](doc/source/images/architecture.png)
 
 ## Flow
 
-1. The user interacts with `Watson Discovery News` via the React Native app UI.
-1. Initial load of app will pull up recent, relevant articles for a company.
-1. User can click on insights to get sentiment, keywords, and concepts from Discovery for that article.
-1. User is able to click on any of these Discovery sentiment, keywords, and/or concepts results to make an additional query into Discovery.
+1. Watson News data is loaded into the Watson Discovery service collection. 
+1. The user interacts with the Watson Discovery service via the React Native mobile app UI running in the XCode iOS Simulator.
+1. The initial load of the mobile app will pull up recent, relevant articles for a company. The user can then click on insights to get sentiment, keywords, and concepts from Discovery for any specific article.
 
 ## Included components
 
@@ -62,7 +61,7 @@ cd build-react-native-app-for-watson-discovery
 Launch the **Watson Discovery** tool. The credentials for the service can be found by selecting the `Service Credentials` tab.
 
 If no credentials exist, select the `New Credential` button to create a new set of credentials.
- 
+
 In the Globals.js file, add the `apikey` value to the `WATSON_DISCOVERY_CREDENTIAL` key using the following format: `apikey:<your api key>`.
 
 ## 4. Run the application
