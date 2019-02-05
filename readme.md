@@ -1,81 +1,100 @@
-# README
-
 # Build a cross-platform mobile app to search company news and gain insights
+
+Work in progress!!!
+
 Get started building a cross-platform mobile app using React Native to fetch news on a company and gain insights using Watson Discovery.
 
 Create a cross-platform mobile app that fetches news for a specific company. The application uses Watson Discovery to get news articles with sentiment, keywords, and related concepts. This application is easily customizable and provides a starting point to use Watson Discovery in your own React Native applications.
 
 Following completion of this pattern, the developer will understand how to:
+
 * Create a cross-platform mobile application using React Native
 * Use Watson Discovery to detect sentiment and keywords for articles
 * Use Watson Discovery to find additional, related news articles for each associated keyword
 
-<img src="react-native-app-1.png" alt="React Native demo, initial screen" height="500">
-<img src="react-native-app-2.png" alt="React Native demo, Discovery results" height="500">
-
-## Quick start
-  1. Sign up for IBM Cloud. Then sign up for Watson Discovery. Copy the API Key under Credentials for Watson Discovery.
-  2. In Globals.js, add your Watson Discovery API Key in this format: apikey:YOUR_API_KEY
-  3. Open a terminal, and then run
-    `> npm install`
-    `> react-native run-ios`
+<img src="doc/source/images/react-native-app-1.png" alt="React Native demo, initial screen" height="500">
+<img src="doc/source/images/react-native-app-2.png" alt="React Native demo, Discovery results" height="500">
 
 TBD: Architecture Diagram
 
 ## Flow
-1. A Discovery News collection is created.
-2. The user interacts with Discovery News via the React Native app UI.
-3. Initial load of app pull up recent, relevant articles for a company.
-4. User can click on insights to get sentiment, keywords, and concepts from Discovery for that article.
-5. User is able to click on any of these Discovery sentiment, keywords, and/or concepts results to make an additional query into Discovery.
+
+1. The user interacts with `Watson Discovery News` via the React Native app UI.
+1. Initial load of app will pull up recent, relevant articles for a company.
+1. User can click on insights to get sentiment, keywords, and concepts from Discovery for that article.
+1. User is able to click on any of these Discovery sentiment, keywords, and/or concepts results to make an additional query into Discovery.
 
 ## Included components
+
 * [IBM Watson Discovery](https://www.ibm.com/watson/developercloud/discovery.html): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights. Extract meta-data from returned content such as concepts, keywords, and, sentiment, using natural language understanding.
 
 ## Featured technologies
+
 * [React Native](https://facebook.github.io/react-native/): React Native lets you build mobile apps using only JavaScript. It uses the same design as [React](https://reactjs.org/), letting you compose a rich mobile UI from declarative components.
 
 # Watch the Video
+
 TBD
 
-# Steps to run locally
+# Steps
 
-### 1. Sign up for IBM Cloud
-<!-- TODO: need link with tracking for IBM Cloud signup -->
+> NOTE: This app requires that the following steps be performed on a Mac running the latest iOS version.
 
-### 2. Create Watson services with IBM Cloud (Watson Discovery)
-* [**Watson Discovery**](https://console.ng.bluemix.net/catalog/services/discovery)
+1. [Clone the repo](#1-clone-the-repo)
+1. [Create IBM Cloud services](#2-create-ibm-cloud-services)
+1. [Configure credentials](#3-configure-credentials)
+1. [Run the application](#4-run-the-application)
 
-### 3. Configure credentials
+## 1. Clone the repo
 
-The credentials for IBM Cloud services (Watson Discovery), can be found in the ``Services`` menu in IBM Cloud,
-by selecting the ``Service Credentials`` option for the service.
-
-In the Globals.js file, add your Watson Discovery username and password in this format: username:password
-
-### 4. Install Node.js
-1. Install [Node.js](https://nodejs.org/en/)
-
-### 5. Clone the repo
-
-Clone the `ReactNativeCodePattern` locally. In a terminal, run:
-
-```
-$ git clone https://github.ibm.com/tmarkiewicz/ReactNativeCodePattern
+```bash
+git clone https://github.ibm.com/IBM/build-react-native-app-for-watson-discovery
+cd build-react-native-app-for-watson-discovery
 ```
 
-### 6. Install dependencies
-  run `> npm install` in a terminal
+## 2. Create IBM Cloud services
 
-### 7. Run the application using the iOS Simulator (Xcode on a Mac is required)
-  run `> react-native run-ios` in a terminal
+* [**Watson Discovery**](https://cloud.ibm.com/catalog/services/discovery)
 
-### 8. View the Watson Discovery dashboard (optional)
-![Image of Watson Discovery dashboard](watson-discovery-news-collection-dashboard.png)
+## 3. Configure credentials
+
+Launch the **Watson Discovery** tool. The credentials for the service can be found by selecting the `Service Credentials` tab.
+
+If no credentials exist, select the `New Credential` button to create a new set of credentials.
+ 
+In the Globals.js file, add the `apikey` value to the `WATSON_DISCOVERY_CREDENTIAL` key using the following format: `apikey:<your api key>`.
+
+## 4. Run the application
+
+The `Node` app must be run using the XCode iOS Simulator.
+
+* Install [Node.js](https://nodejs.org/en/) runtime or NPM.
+* Install [Xcode](https://developer.apple.com/xcode/) using the 'App Store` on your Mac.
+
+Build and run the app using the following commands:
+
+```bash
+npm install
+react-native run-ios
+```
+
+## 5. View the Watson Discovery dashboard (optional)
+
+![discovery-dashboard](doc/source/images/watson-discovery-news-collection-dashboard.png)
 
 # Links
+
 * [Watson Discovery Getting Started Tutorial](https://console.bluemix.net/docs/services/discovery/getting-started.html#getting-started-tutorial)
 * [Watson Discovery API docs](https://console.bluemix.net/apidocs/discovery)
 
+# Learn more
+
+* **Artificial Intelligence Code Patterns**: Enjoyed this Code Pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/)
+* **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our Code Pattern videos
+* **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
+
 # License
-[Apache 2.0](LICENSE)
+
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
