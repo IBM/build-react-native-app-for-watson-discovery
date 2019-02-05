@@ -12,8 +12,9 @@ Following completion of this pattern, the developer will understand how to:
 * Use Watson Discovery to detect sentiment and keywords for articles
 * Use Watson Discovery to find additional, related news articles for each associated keyword
 
-<img src="doc/source/images/react-native-app-1.png" alt="React Native demo, initial screen" height="500">
-<img src="doc/source/images/react-native-app-2.png" alt="React Native demo, Discovery results" height="500">
+|   |   |
+| - | - |
+| ![](doc/source/images/react-native-app-1.png) | ![](doc/source/images/react-native-app-2.png) |
 
 TBD: Architecture Diagram
 
