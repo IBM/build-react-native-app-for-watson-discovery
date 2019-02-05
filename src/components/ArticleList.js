@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 import { getDiscovery } from '../discovery';
 import Article from './Article';
 
@@ -12,7 +12,7 @@ export default class ArticleList extends React.Component {
 
   componentDidMount() {
     this.fetchDiscovery();
-   }
+  }
 
   fetchDiscovery() {
     getDiscovery(this.props.keyword || 'IBM')

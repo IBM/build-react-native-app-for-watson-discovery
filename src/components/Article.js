@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Linking, TouchableHighlight } from 'react-native';
-import { Text, Button, Card, Divider } from 'react-native-elements';
+import { Text, Card, Divider } from 'react-native-elements';
 import { Actions } from 'react-native-router-flux';
 import moment from 'moment';
 
@@ -10,12 +10,11 @@ export default class Article extends React.Component {
       title,
       text,
       publication_date,
-      main_image_url,
       host,
       enriched_text,
       url
     } = this.props.article;
-    const { noteStyle, linkStyle, featuredTitleStyle } = styles;
+    const { noteStyle } = styles;
     const time = moment(publication_date || moment.now()).fromNow();
 
     return (
