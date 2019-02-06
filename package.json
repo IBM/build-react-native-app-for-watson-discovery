@@ -15,6 +15,7 @@
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "moment": "^2.22.2",
+    "opencollective": "^1.0.3",
     "react": "16.7.0",
     "react-native": "0.58.3",
     "react-native-elements": "^1.0.0",
