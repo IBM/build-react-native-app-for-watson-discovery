@@ -26,7 +26,7 @@ Following completion of this pattern, the developer will understand how to:
 
 ## Included components
 
-* [IBM Watson Discovery](https://www.ibm.com/watson/developercloud/discovery.html): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights. Extract meta-data from returned content such as concepts, keywords, and, sentiment, using natural language understanding.
+* [IBM Watson Discovery](https://www.ibm.com/watson/developercloud/discovery.html): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights. Extract meta-data from returned content such as concepts, keywords and sentiment, using natural language understanding.
 
 ## Featured technologies
 
@@ -62,14 +62,14 @@ Launch the **Watson Discovery** tool. The credentials for the service can be fou
 
 If no credentials exist, select the `New Credential` button to create a new set of credentials.
 
-In the Globals.js file, add the `apikey` value to the `WATSON_DISCOVERY_CREDENTIAL` key using the following format: `apikey:<your api key>`.
+In the `Globals.js` file, add the `apikey` value to the `WATSON_DISCOVERY_CREDENTIAL` key using the following format: `apikey:<your api key>`.
 
 ## 4. Run the application
 
 The `Node` app must be run using the XCode iOS Simulator.
 
 * Install [Node.js](https://nodejs.org/en/) runtime or NPM.
-* Install [Xcode](https://developer.apple.com/xcode/) using the 'App Store` on your Mac.
+* Install [Xcode](https://developer.apple.com/xcode/) using the `App Store` on your Mac.
 
 Build and run the app using the following commands:
 
