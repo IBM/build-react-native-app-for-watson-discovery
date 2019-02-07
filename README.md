@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/IBM/build-react-native-app-for-watson-discovery.svg?branch=master)](https://travis-ci.org/IBM/build-react-native-app-for-watson-discovery)
+
 # Build a cross-platform mobile app to search company news and gain insights
 
 Work in progress!!!
