@@ -22,13 +22,13 @@ Following completion of this pattern, the developer will understand how to:
 
 ## Flow
 
-1. Watson News data is loaded into the Watson Discovery service collection. 
+1. Watson News data is loaded into the Watson Discovery service collection.
 1. The user interacts with the Watson Discovery service via the React Native mobile app UI running in the XCode iOS Simulator.
 1. The initial load of the mobile app will pull up recent, relevant articles for a company. The user can then click on insights to get sentiment, keywords, and concepts from Discovery for any specific article.
 
 ## Included components
 
-* [IBM Watson Discovery](https://www.ibm.com/watson/developercloud/discovery.html): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights. Extract meta-data from returned content such as concepts, keywords and sentiment, using natural language understanding.
+* [IBM Watson Discovery](https://www.ibm.com/watson/developercloud/discovery.html): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights. Extract meta-data from returned content such as concepts, keywords, and sentiment using natural language understanding.
 
 ## Featured technologies
 
@@ -79,6 +79,7 @@ Build and run the app using the following commands:
 npm install
 react-native run-ios
 ```
+The `react-native run-ios` command launches the application on the `iOS Simulator`. If not already running, this command will launch the simulator using the last device settings.
 
 ## 5. View the Watson Discovery dashboard (optional)
 
