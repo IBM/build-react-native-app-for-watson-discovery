@@ -10,12 +10,13 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "opencollective-postinstall"   
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "moment": "^2.22.2",
-    "opencollective": "^1.0.3",
+    "opencollective-postinstall": "^2.0.2",
     "react": "16.7.0",
     "react-native": "0.58.3",
     "react-native-elements": "^1.0.0",
