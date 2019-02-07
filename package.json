@@ -10,31 +10,30 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "lint": "eslint .",
-    "test": "jest",
-    "postinstall": "opencollective-postinstall"   
+    "test": "jest"
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "moment": "^2.22.2",
-    "opencollective-postinstall": "^2.0.2",
     "react": "16.7.0",
-    "react-native": "0.58.3",
+    "react-native": "^0.58.4",
     "react-native-elements": "^1.0.0",
     "react-native-router-flux": "^4.0.6",
     "react-native-vector-icons": "^6.2.0",
-    "react-navigation": "^3.1.4"
+    "react-navigation": "^3.1.5"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-standard": "^3.0.1",
     "babel-jest": "24.0.0",
-    "babel-preset-react-native": "5.0.2",
+    "babel-preset-react-native": "4.0.1",
     "jest": "24.0.0",
-    "react-test-renderer": "16.7.0"
+    "react-test-renderer": "16.8.1"
   },
   "jest": {
     "preset": "react-native"
