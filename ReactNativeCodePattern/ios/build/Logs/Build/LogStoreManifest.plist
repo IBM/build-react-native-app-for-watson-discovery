@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>864CDA99-EC0A-4DCD-874A-441F90AE04D4</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>864CDA99-EC0A-4DCD-874A-441F90AE04D4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ReactNativeCodePattern project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ReactNativeCodePattern</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace ReactNativeCodePattern with scheme ReactNativeCodePattern and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>571632885.87125003</real>
+			<key>timeStoppedRecording</key>
+			<real>571632892.34759295</real>
+			<key>title</key>
+			<string>Building workspace ReactNativeCodePattern with scheme ReactNativeCodePattern and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>864CDA99-EC0A-4DCD-874A-441F90AE04D4</string>
+		</dict>
+		<key>B71AA1B8-28A2-42E9-9FCE-BA55EB95B713</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B71AA1B8-28A2-42E9-9FCE-BA55EB95B713.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ReactNativeCodePattern project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ReactNativeCodePattern</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace ReactNativeCodePattern with scheme ReactNativeCodePattern and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>571682463.49627995</real>
+			<key>timeStoppedRecording</key>
+			<real>571682466.87373602</real>
+			<key>title</key>
+			<string>Building workspace ReactNativeCodePattern with scheme ReactNativeCodePattern and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>B71AA1B8-28A2-42E9-9FCE-BA55EB95B713</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

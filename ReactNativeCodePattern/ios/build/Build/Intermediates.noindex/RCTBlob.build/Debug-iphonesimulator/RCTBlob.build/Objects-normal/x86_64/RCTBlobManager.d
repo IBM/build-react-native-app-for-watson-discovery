@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/node_modules/react-native/Libraries/Blob/RCTBlobManager.mm \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/node_modules/react-native/Libraries/Blob/RCTBlobManager.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/rhagarty/journeys/ReactNativeCodePattern/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTWebSocketModule.h
