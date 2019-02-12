@@ -54,6 +54,12 @@ git clone https://github.ibm.com/IBM/build-react-native-app-for-watson-discovery
 cd build-react-native-app-for-watson-discovery
 ```
 
+Note that all of the `react-native` assets can be found in the `ReactNativeCodePattern` sub-directory. Set that as your current directory before executing the remaining steps.
+
+```bash
+cd ReactNativeCodePattern
+```
+
 ## 2. Create IBM Cloud services
 
 * [**Watson Discovery**](https://cloud.ibm.com/catalog/services/discovery)
@@ -79,6 +85,7 @@ Build and run the app using the following commands:
 npm install
 react-native run-ios
 ```
+
 The `react-native run-ios` command launches the application on the `iOS Simulator`. If not already running, this command will launch the simulator using the last device settings.
 
 ## 5. View the Watson Discovery dashboard (optional)

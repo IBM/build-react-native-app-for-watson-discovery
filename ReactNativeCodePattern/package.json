@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint .",
     "test": "jest"
   },
   "dependencies": {
@@ -19,6 +20,13 @@
   "devDependencies": {
     "babel-jest": "23.6.0",
     "babel-preset-react-native": "5.0.2",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
     "jest": "23.6.0",
     "react-test-renderer": "16.4.1"
   },
