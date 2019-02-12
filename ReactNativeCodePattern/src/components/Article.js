@@ -14,7 +14,7 @@ export default class Article extends React.Component {
       enriched_text,
       url
     } = this.props.article;
-    const { noteStyle } = styles;
+    const { noteStyle, linkStyle } = styles;
     const time = moment(publication_date || moment.now()).fromNow();
 
     return (
@@ -25,13 +25,13 @@ export default class Article extends React.Component {
         <Divider style={{ backgroundColor: '#dfe6e9' }} />
 
         <TouchableHighlight onPress={() => Actions.insights({enriched_text: enriched_text})} >
-          <Text style={noteStyle}>More analysis from IBM Watson Discovery</Text>
+          <Text style={linkStyle}>More analysis from IBM Watson Discovery</Text>
         </TouchableHighlight>
 
         <Divider style={{ backgroundColor: '#dfe6e9' }} />
         <TouchableHighlight onPress={() => Linking.openURL(url)} >
           <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-            <Text style={noteStyle}>{host.toUpperCase()}</Text>
+            <Text style={linkStyle}>{host.toUpperCase()}</Text>
             <Text style={noteStyle}>{time}</Text>
           </View>
         </TouchableHighlight>
@@ -47,7 +47,7 @@ const styles = {
     fontSize: 10
   },
   linkStyle: {
-    margin: 5,
+    margin: 10,
     color: 'blue',
     fontSize: 10
   }

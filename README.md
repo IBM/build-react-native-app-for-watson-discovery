@@ -89,6 +89,7 @@ react-native run-ios
 The `react-native run-ios` command launches the application on the `iOS Simulator`. If not already running, this command will launch the simulator using the last device settings.
 
 ## 5. View the Watson Discovery dashboard (optional)
+As an optional step, you can explore the data in Watson Discovery News that is being fetched in the React Native application.
 
 ![discovery-dashboard](doc/source/images/watson-discovery-news-collection-dashboard.png)
 
