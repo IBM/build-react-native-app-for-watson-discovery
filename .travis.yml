@@ -1,0 +1,11 @@
+language: node_js
+dist: trusty
+node_js: 8
+before_script:
+  - cd ReactNativeCodePattern
+  - npm install
+script:
+  - npm run lint
+cache:
+  directories:
+    - node_modules
