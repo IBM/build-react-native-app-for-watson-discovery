@@ -22,7 +22,7 @@ Following completion of this pattern, the developer will understand how to:
 
 1. Watson News data is loaded into the Watson Discovery service collection.
 1. The user interacts with the Watson Discovery service via the React Native mobile app UI running in the XCode iOS Simulator.
-1. The initial load of the mobile app will pull up recent, relevant articles for a company. The user can then click on insights to get sentiment, keywords, and concepts from Discovery for any specific article.
+1. The initial load of the mobile app will pull up recent, relevant articles for a company. The user can then click on insights to get sentiment, keywords, and concepts from Watson Discovery for any specific article.
 
 ## Included components
 
@@ -58,6 +58,14 @@ Note that all of the `react-native` assets can be found in the `ReactNativeCodeP
 cd ReactNativeCodePattern
 ```
 
+> Extra: For convenience this sub-directory is included with this code pattern, but it is worth mentioning how it was created. It was built using the React Natvive command line interface:
+>
+>  ```bash
+>  react-native init ReactNativeCodePattern
+>  ```
+>
+> This creates the sub-directory and installs all of the required files needed to run `iOS` and `Android` React Native apps.
+
 ## 2. Create IBM Cloud services
 
 * [**Watson Discovery**](https://cloud.ibm.com/catalog/services/discovery)
@@ -86,7 +94,7 @@ react-native run-ios
 
 The `react-native run-ios` command performs several steps:
 
-* It builds the required set-up files for your iOS react-native app. This can take a bit of time and a large amount of console messages will be output.
+* It builds the required set-up files for your iOS React Native app. This can take a bit of time and a large amount of console messages will be output.
 * It launches the application on the `XCode iOS Simulator`. If not already running, this command will launch the simulator using the last device settings.
 * A `Metro Bundler` window will appear that show the progress of bundling all of the javascript files required to run the app.
 
@@ -136,9 +144,9 @@ Modify the `filter` value specified in the `url_dq1` string.
 
 The data being used by this mobile app comes from a `Discovery News` collection that is available to every Watson Discovery service created. To explore this data, you can use the tooling available from the [Watson Discovery](https://cloud.ibm.com/catalog/services/discovery) service panel.
 
-From your Watson Discovery service main panel, click on `Manage` tab, and then the `Launch Tool` button.
+Launch the **Watson Discovery** tool. Click on `Manage` tab, and then the `Launch Tool` button.
 
-From the list of data collections, select the collection named `Watson Discovery News`. You should then see the following screen:
+From the list of data collections, select `Watson Discovery News`. You should then see the following screen:
 
 ![discovery-dashboard](doc/source/images/watson-discovery-news-collection-dashboard.png)
 
@@ -162,10 +170,13 @@ Once the `iOS Simulator` screen is displayed, you can use remote debugging to mo
 
 To enable debugging, select the `iOS Simulator` screen and press ***CMD+d***, then select option `Start Remote JS Debugging`, which should launch a new browser window. From there, click `inspect` (or similar command, depending on your browser) to bring up the developer tools window.
 
+For more information on running the `XCode iOS Simulator`, from the Simulator menu bar, select `Help` > `Simulator Help`.
+
 # Links
 
 * [Watson Discovery Getting Started Tutorial](https://console.bluemix.net/docs/services/discovery/getting-started.html#getting-started-tutorial)
 * [Watson Discovery API docs](https://console.bluemix.net/apidocs/discovery)
+* [How to use XCode iOS Simulator for responsive web testing on Mac](https://medium.com/@ali.dev/how-to-use-xcode-ios-simulator-for-responsive-web-testing-on-mac-7870ee4fc22b)
 
 # Learn more
 
