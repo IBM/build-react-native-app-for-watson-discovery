@@ -66,7 +66,7 @@ cd ReactNativeCodePattern
 >
 > This creates the sub-directory and installs all of the required files needed to run `iOS` and `Android` React Native apps.
 >
->For an overview of the project structure, including the React Native assets, please check out [DEVELOPING.md](https://github.com/IBM/build-react-native-app-for-watson-discovery/blob/master/DEVELOPING.md).
+>For an overview of the project structure, including the React Native assets, please check out [DEVELOPING.md](DEVELOPING.md).
 
 ## 2. Create IBM Cloud services
 
