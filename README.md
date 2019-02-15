@@ -65,6 +65,8 @@ cd ReactNativeCodePattern
 >  ```
 >
 > This creates the sub-directory and installs all of the required files needed to run `iOS` and `Android` React Native apps.
+>
+>For an overview of the project structure, including the React Native assets, please check out [DEVELOPING.md](DEVELOPING.md).
 
 ## 2. Create IBM Cloud services
 
@@ -129,6 +131,16 @@ From the main screen, if you click on the web site link for the article, the art
 > Note: Use the `< ReactNativeCodePattern` link at the top of the panel to return to the main screen.
 
 # Optional Steps
+
+## Run the application on an Android virtual device
+
+Run the following command to run in Android mode:
+
+```bash
+react-native run-android
+```
+
+This will require that you install either the `Android SDK` or `Android Studio` application. Once installed, click on the `Building Projects with Native Code` tab found [here](https://facebook.github.io/react-native/docs/getting-started.html) for details on how to run the mobile app on an Android virtual device.
 
 ## Run the application on a device
 
