@@ -34,7 +34,7 @@ Following completion of this pattern, the developer will understand how to:
 
 # Watch the Video
 
-TBD
+[![video](https://img.youtube.com/vi/DxT3SYw1Jc8/0.jpg)](https://www.youtube.com/watch?v=DxT3SYw1Jc8)
 
 # Steps
 
