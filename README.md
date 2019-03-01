@@ -48,7 +48,7 @@ Following completion of this pattern, the developer will understand how to:
 ## 1. Clone the repo
 
 ```bash
-git clone https://github.ibm.com/IBM/build-react-native-app-for-watson-discovery
+git clone https://github.com/IBM/build-react-native-app-for-watson-discovery
 cd build-react-native-app-for-watson-discovery
 ```
 
